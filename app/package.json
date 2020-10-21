@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "default-start": "ng serve",
+    "defualt-build": "ng build",
+    "start": "npm run serve:single-spa:qualis-mf-navbar",
+    "build": "npm run build:single-spa:qualis-mf-navbar",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -22,7 +24,7 @@
     "@angular/platform-browser-dynamic": "~9.1.12",
     "@angular/router": "~9.1.12",
     "rxjs": "~6.5.4",
-    "single-spa": "^5.8.0",
+    "single-spa": ">=4.0.0",
     "single-spa-angular": "^4.5.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

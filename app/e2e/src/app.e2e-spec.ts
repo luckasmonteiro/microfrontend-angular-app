@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('qualis-mf-navbar app is running!');
+    expect(page.getTitleText()).toEqual('qualis-mf-app1 app is running!');
   });
 
   afterEach(async () => {

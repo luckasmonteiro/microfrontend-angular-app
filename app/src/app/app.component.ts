@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'qualis-mf-navbar';
+  public title = 'qualis-mf-app1';
+  public isCollapsed = false;
 }
